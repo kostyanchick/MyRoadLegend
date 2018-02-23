@@ -1,0 +1,44 @@
+<div id="settingsModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        {% if page_name == 'Slider' %}
+        <form class="interval-control">
+              <input type="radio" name="interval" value="10000000">off<br>
+              <input type="radio" name="interval" value="2000">2s<br>
+              <input type="radio" name="interval" value="5000" checked>5s<br>
+              <input type="radio" name="interval" value="10000">10s<br>
+              <br>
+              <input type="button" onclick="myFunction()" value="Change interval">
+              <br><br>
+        </form>
+            <script>
+            function myFunction() {
+                var intervals = document.forms[0];
+                var timer = 0;
+                var i;
+                for (i = 0; i < intervals.length; i++) {
+                    if (intervals[i].checked) {
+                        timer = intervals[i].value;
+                    }
+                }
+                <!--alert(timer)-->
+                $('#myCarousel').data("bs.carousel").options.interval =  timer;
+            }
+            </script>
+        {% endif %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+

@@ -1,0 +1,74 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid container ">
+      {% set switcher = 1 %}
+    <div class="navbar-header" >
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" onclick="myFunction({{ switcher }})" >
+        <span class="icon-bar" ></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">MyRoadLegend | <span class="blue">C.A.R.S.</span class="blue"></a>
+        <span><img src="static/images/Wheel.png" class="wheel"></span>
+
+
+    </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li {% if page_name == 'Main'%} class="active" {% endif %}><a href="/">Home</a></li>
+              <li{% if page_name == 'About'%} class="active" {% endif %}><a href="/about">About</a></li>
+              <li{% if page_name == 'Slider'%} class="active" {% endif %}><a href="/carousel">Slider</a></li>
+            </ul>
+            {% if page_name in['Main','Slider'] %}
+                <form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-default glyphicon glyphicon-search"></button>
+                </form>
+                <form class="navbar-form navbar-right setbar" role="settings">
+                    <button type="button" class="btn btn-secondary btn setbtn" data-toggle='modal' data-target='#settingsModal'>
+                        <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span></button>
+                </form>
+
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="/registration"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+                </ul>
+            {% endif %}
+        </div>
+
+  </div>
+
+</nav>
+
+{#<script>#}
+{#    swt = 0;#}
+{#    window.find('button').click(function (event) {#}
+{#        swt = (swt+1)%2;#}
+{#         alert(0);#}
+{#            if (swt == 0)#}
+{#            {#}
+{#               document.getElementById("dropdown_navbar").style.padding = "350px 0";#}
+{#           }#}
+{#            else#}
+{#            {#}
+{#                document.getElementById("dropdown_navbar").style.padding = "100px 0";#}
+{#            }#}
+{##}
+{#    })#}
+{#</script>#}
+{##}
+{#<script>#}
+{#   function myFunction(swt) {#}
+{#            alert(swt);#}
+{#            if (swt == 0)#}
+{#            {#}
+{#               document.getElementById("dropdown_navbar").style.padding = "350px 0";#}
+{#           }#}
+{#            else#}
+{#            {#}
+{#                document.getElementById("dropdown_navbar").style.padding = "100px 0";#}
+{#            }#}
+{#   }#}
+{#</script>#}

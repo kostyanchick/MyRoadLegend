@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% set page_name = 'Main' %}
+
+{% block content %}
+    <h1>Gallery</h1>
+
+    <!-- cars block, required for json representation -->
+    <div id="cars"></div>
+    <div id="pages"></div>
+    <div id="modal"></div>
+
+{% endblock %}
+
+{% block scripts %}
+    <script src="static/js/cars.js"></script>
+{% endblock %}

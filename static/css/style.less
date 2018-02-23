@@ -1,0 +1,224 @@
+@import "use.less";
+
+html,
+body {
+    height: @fullSize;
+}
+
+.wrap {
+    position: relative;
+    padding: 50px 0;
+    min-height: 100%;
+}
+
+.main {
+    padding: 15px 0;
+}
+
+
+/*
+@keyframes footerFlash {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+*/
+
+.footer {
+
+     animation-name: footerFlash;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #dbb7ad;
+    opacity: 0.5;
+}
+
+/*
+@keyframes rotateWheel {
+    0%{
+          transform:rotate(0deg);
+      }
+
+      /* Finish changes by here
+    100%{
+          transform:rotate(360deg);
+      }
+}
+*/
+
+
+.rotatePic{
+    &:hover{
+         animation-name: rotatePicture;
+         animation-duration: 0.3s;
+         animation-iteration-count: 2;
+    }
+}
+
+.wheel{
+    height: 50px;
+    width: 50px;
+    color:#ed3215;
+
+    animation-name: rotateWheel;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+}
+
+.blue {
+    color: #ed3215;
+}
+
+//@colorSetBtn: rgb(195, 42, 29);
+
+.setbtn {
+    background-color: @colorSetBtn;
+    padding: 0 12px;
+    height: 100%;
+    border-radius: 0;
+    color: #ddd;
+}
+.setbtn:hover{
+        color: #000;
+        background-color: ghostwhite;
+}
+.setbtn:focus{
+        background-color: @colorSetBtn;
+        color: #ddd;
+    }
+
+.setbar{
+    height: 50px;
+    margin: 0;
+
+}
+.muted {
+    color: #ed3215;
+    text-align: right;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.car {
+    position: relative;
+    margin: 0 0 30px;
+    padding: 0 0 100%;
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+    opacity: .8;
+    transition: .5s;
+    &:hover {
+        opacity: 1;
+        img {
+            transform: scale(1.1);
+        }
+    }
+    img {
+        .GalleryImagePosition();
+    }
+}
+
+.modal-body{
+    width: 100%;
+    padding: 0;
+    .preview{
+        width: inherit;
+        box-shadow:0 5px 0 @colorSetBtn;
+    }
+}
+
+.description {
+    margin: 15px;
+}
+
+.form-interval {
+    padding: 5rem;
+}
+
+
+.carousel-indicators {
+    bottom: -10px;
+}
+
+//@colorSolidIndicicators: #a94442;
+
+.carousel-indicators-numbers>li{
+      text-indent: 0;
+      margin: 0 2px;
+      width: 20px;
+      height:20px;
+      border: 1px solid @colorSolidIndicicators;
+      border-radius: 5%;
+      line-height: 30px;
+      color: @colorSolidIndicicators;
+      transition: all 0.25s ease;
+      top: 100px;
+      &.active {
+            width: 20px;
+            height:5px;
+            margin: 0 2px;
+            background-color: @colorSolidIndicicators;
+      }
+      &:hover{
+            background-color: #337ab7;
+      }
+}
+
+.carousel-caption {
+   .desc();
+}
+
+.interval-control{
+    padding: 50px;
+}
+
+/**
+ * Для всіх слайдів я задаю статичну висоту, видаляю з них зображення залишаючи
+ * тільки caption, який має абсолютну позицію і не впливатиме на вимірювання
+ * висоти, а зображеня задаю у якості фону, який розтягується по всьому блоку,
+ * що задано властивістю 'cover'.
+ */
+
+.carousel{
+    width: 80%;
+    margin:auto;
+    padding-bottom: 30px;
+}
+
+
+.carousel-inner > .item {
+    padding: 0 0 60%;
+    background: #000 no-repeat center / cover;
+}
+
+@media (max-width: 767px) {
+  .car{
+    height: 100%;
+    opacity: 1;
+    padding: 0;
+    img{
+        width: 100% !important;
+        height: auto;
+        position: inherit;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .wrap {
+    padding: 100px 0;
+   }
+}
+

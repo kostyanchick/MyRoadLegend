@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "picture": "camaro.jpg",
+    "title": "Camaro SS 1969",
+    "description": "The Chevrolet Camaro is an American automobile manufactured by Chevrolet, classified as a pony car and some versions also as a muscle car. It went on sale on September 29, 1966, for the 1967 model year and was designed as a competing model to the Ford Mustang. The car shared its platform and major components with the Pontiac Firebird, also introduced for 1967. Four distinct generations of the Camaro were developed before production ended in 2002. The nameplate was revived on a concept car that evolved into the fifth-generation Camaro; production started on March 16, 2009."
+  },
+  {
+    "id": 2,
+    "picture": "fordGT.jpg",
+    "title": "Ford GT",
+    "description": "The Ford GT is an American mid-engine two-seater sports car manufactured and marketed by Ford for model year 2005 in conjunction with the company's 2003 centenary — and again in redesigned form for model year 2017. The GT recalls Ford's historically significant GT40, consecutive four-time winner of the 24 Hours of LeMans (1966-1969), including a 1-2-3 finish in 1966."
+  },
+  {
+    "id": 3,
+    "picture": "R8.jpg",
+    "title": "Audy R8",
+    "description": "The Audi R8 is a mid-engine, 2-seater sports car, which uses Audi's trademark quattro permanent all-wheel drive system. It was introduced by the German car manufacturer Audi AG in 2006. The car is exclusively designed, developed, and manufactured by Audi AG's high performance private subsidiary company, Audi Sport GmbH (formerly quattro GmbH), and is based on the Lamborghini Gallardo platform. The fundamental construction of the R8 is based on the Audi Space Frame, and uses an aluminium monocoque which is built using space frame principles. The car is built by quattro GmbH in a newly renovated factory at Audi's 'aluminium site' at Neckarsulm in Germany. It is also the first production car with full-LED headlamps."
+  },
+  {
+    "id": 4,
+    "picture": "mcLaren.jpg",
+    "title": "McLarenF1 1994",
+    "description": "The McLaren F1 is a sports car designed and manufactured by McLaren Cars. Originally a concept conceived by Gordon Murray, he convinced Ron Dennis to back the project and engaged Peter Stevens to design the exterior and interior of the car. On 31 March 1998, the XP5 prototype set the record for the world's fastest production car, reaching 240.1 mph (386.4 km/h) with the rev limiter removed surpassing the 231 mph (372 km/h) reached with the XP3 prototype. The F1 surpassed the Jaguar XJ220's 213 mph record from 1992, as well as the low production number RUF CTR2's 217 mph record from 1995. The McLaren's record lasted until the Bugatti Veyron 16.4 beat it in 2005 with a top speed of 253.81 mph (408.47 km/h)"
+  },
+  {
+    "id": 5,
+    "picture": "reventon.jpg",
+    "title": "Lamborghini Reventon",
+    "description": "The Lamborghini Reventón (Spanish pronunciation: [reβenˈton]) is a mid-engine sports car that debuted at the 2007 Frankfurt Motor Show. It was the most expensive Lamborghini road car until the Lamborghini Sesto Elemento was launched, costing two million dollars (~$1.5 million, or ~£840,000). Its top speed was recorded in UAE at 221 miles per hour (355.7 km/h). The official press release stated that only 20 vehicles would be sold to the public, with one additional car (marked as 00/20) produced for the Lamborghini museum. titlehough early rumors indicated the total number would actually be 100, each Reventón is stamped with its number in the sequence of 20 between the driver's and passenger's seats."
+  },
+  {
+    "id": 6,
+    "picture": "RX7.jpg",
+    "title": "Mazda RX7",
+    "description": "The Mazda RX-7 is a sports car that was produced by the Japanese automaker Mazda from 1978 to 2002. The first RX-7 featured an 1,146 cc (69.9 cu in) twin-rotor Wankel rotary engine and a front-midship, rear-wheel drive layout. The RX-7 replaced the RX-3, with both models sold in Japan as the Mazda Savanna. The original RX-7 was a sports car with pop-up headlamps. The compact and lightweight Wankel rotary engine is situated slightly behind the front axle, a configuration marketed by Mazda as 'front mid-engine'. It was offered as a two-seat coupé, with optional 'occasional' rear seats in Japan, Australia, the United States, and other parts of the world. The rear seats were initially marketed as a dealer-installed option for the North American markets."
+  },
+  {
+    "id": 7,
+    "picture": "Testarossa.jpg",
+    "title": "Ferrarri Testarossa",
+    "description": "The Ferrari Testarossa (Type F110) is a 12-cylinder mid-engine sports car manufactured by Ferrari, which went into production in 1984 as the successor to the Ferrari Berlinetta Boxer. The Pininfarina-designed car was originally produced from 1984 to 1991, with two model revisions following the ending of Testarossa production and the introduction of the 512 TR and F512 M which were produced from 1992 to 1996. Almost 10,000 Testarossas, 512 TRs, and F512 Ms were produced, making it one of the most-produced Ferrari models, despite its high price and exotic design. In 1995, the F512 M retailed for $220,000 (£136,500)."
+  },
+  {
+    "id": 8,
+    "picture": "Impreza.jpg",
+    "title": "Subaru Impreza",
+    "description": "The Subaru Impreza is a compact automobile, that has been manufactured since 1992 by Subaru, introduced as a replacement for the Leone, with the predecessor's EA series engines replaced by the new EJ series. Now in its fifth generation, Subaru has offered four-door sedan and five-door body variants since 1992; the firm also offered a coupe from 1995 until 2000, and a wagon from the Impreza's introduction until 2007, when a five-door hatchback replaced it. Mainstream versions have received naturally aspirated 'boxer' flat-four engines ranging from 1.5- to 2.5-liters, with the performance-oriented Impreza WRX and WRX STI models uprated with the addition of turbochargers."
+  },
+  {
+    "id": 9,
+    "picture": "charger.jpg",
+    "title": "Dodge Charger",
+    "description": "The Dodge Charger (B-body) is a mid-size automobile that was produced by Dodge from 1966 to 1978, and was based on the Chrysler B platform. During the early-1960s, automakers were exploring new ideas in the personal luxury and specititley car segments. Chrysler, fast to enter the specititley car market, selected their Dodge Division to enter the marketplace with a bigger model to fit between the 'pony car' Ford Mustang and the 'personal luxury' Ford Thunderbird. The intention was to use the B-body for a sporty car with fastback look while sharing as much of their existing hardware as possible."
+  },
+  {
+    "id": 10,
+    "picture": "Skyline.jpg",
+    "title": "Nissan Skyline R34",
+    "description": "The Nissan Skyline (Japanese: 日産・スカイライン Nissan Sukairain) is a line of compact cars, sports cars and compact executive cars originally produced by the Prince Motor Company starting in 1957, and then by Nissan after the two companies merged in 1966. After the merger, the Skyline and its larger counterpart, the Nissan Gloria, were sold in Japan at dealership sales channels called Nissan Prince Shop. The Skyline was largely designed and engineered by Shinichiro Sakurai from inception, and he remained a chief influence of the car until his death in 2011."
+  },
+  {
+    "id": 11,
+    "picture": "Evo9.jpg",
+    "title": "Mitsubishi Lancer Evo9",
+    "description": "The Mitsubishi Lancer Evolution, also known as the Lancer Evo or just Evo, was a sports sedan manufactured by Mitsubishi Motors that is based on the normal Lancer. There have been ten official versions to date, and the designation of each model is most commonly a Roman numeral. All use two litre, turbocharged engines and all-wheel drive systems. The Evolution was originally intended only for Japanese markets, but demand on the 'grey import' market led the Evolution series to be offered through Ralliart dealer networks in the United Kingdom and in various European markets from around 1998. Mitsubishi decided to export the eighth generation Evolution to the United States in 2003 after witnessing the success Subaru had in that market with their long-time direct rival, the Subaru Impreza WRX STi."
+  },
+  {
+    "id": 12,
+    "picture": "Pontiac.jpg",
+    "title": "Pontiac GTO",
+    "description": "The Pontiac GTO is an automobile that was built by Pontiac in generations from 1964 to 1974 model years, and by GM's subsidiary Holden in Australia from 2004 to 2006. The first generation GTO was a muscle car of the 1960s and 1970s era. titlehough there were earlier muscle cars, the Pontiac GTO is considered by some to have started the trend with all four domestic automakers offering a variety of competing models."
+  },
+  {
+    "id": 13,
+    "picture": "supra.jpg",
+    "title": "Toyota Supra",
+    "description": "The Toyota Supra is a sports car/grand tourer that was produced by Toyota Motor Corporation from 1978 to 2002. The styling of the Toyota Supra was derived from the Toyota Celica, but it was both longer and wider.[2] Starting in mid-1986, the A70 Supra became a separate model from the Celica. In turn, Toyota also stopped using the prefix Celica and began just calling the car Supra. Owing to the similarity and past of the Celica's name, it is frequently mistaken for the Supra, and vice versa. First, second, and third generation Supras were assembled at Tahara plant in Tahara, Aichi while the fourth generation Supra was assembled at the Motomachi plant in Toyota City."
+  }
+]

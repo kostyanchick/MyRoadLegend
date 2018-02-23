@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% set page_name = 'Registration' %}
+
+{% block content %}
+<h1>This is Registration page</h1>
+
+<div class="col-sm-6 forms">
+    <form role="form">
+        <div class="form-group  has-feedback ">
+            <label for="username">Username</label>
+            <input type="text" name="user" class="form-control" pattern="[a-z]{3,32}"
+                   id="username" autofocus placeholder="johnnewman"   title="Username should contain only lowercase letters, at least 3 and up to 32" required />
+            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+            <div class="help-block"></div>
+        </div>
+        <div class="form-group  has-feedback ">
+            <label for="email">E-Mail</label>
+            <input type="email" name="mail" class="form-control" pattern="^[-._a-zA-Z0-9]+@(?:[a-z0-9][-a-z0-9]+\.)+[a-z]{2,6}$"
+                   id="email" autofocus placeholder="example@test.com"  title="Please enter a valid email address. example@test.com" required />
+            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+            <div class="help-block"></div>
+        </div>
+        <div class="form-group  has-feedback ">
+            <label for="firstName">First name</label>
+            <input type="text" name="fName" class="form-control" pattern="[a-z]{3,32}"
+                   id="firstName" autofocus placeholder="John"  title="First name should contain only lowercase letters, at least 3 and up to 32" required />
+            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+            <div class="help-block"></div>
+        </div>
+        <div class="form-group  has-feedback ">
+            <label for="secondName">Second name</label>
+            <input type="text" name="lName" class="form-control" pattern="[a-z]{3,32}"
+                   id="secondName" autofocus placeholder="Newman"  title="Second name should contain only lowercase letters, at least 3 and up to 32" required />
+            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+            <div class="help-block"></div>
+        </div>
+
+        <div class="form-gender">
+            <label class="radio-inline"><input class="gender" type="radio" name="gender" value="male" checked> Male<br></label>
+            <label class="radio-inline"><input class="gender" type="radio" name="gender" value="female" checked> Female<br></label>
+            <label class="radio-inline"><input class="gender" type="radio" name="gender" value="other" checked> Other<br></label>
+        </div>
+
+        <div class="checkbox"><label><input type="checkbox">Remember me</label></div>
+        <div class="checkbox"><label><input type="checkbox">Don't send me notification on email</label></div>
+
+         <div class="form-group text-left">
+                <button type="submit" id="finish" class="btn btn-success btn-lg">Register</button>
+         </div>
+    </form>
+</div>
+{% endblock %}
+
+{% block scripts %}
+    <script src="static/js/registration.js"></script>
+{% endblock %}
